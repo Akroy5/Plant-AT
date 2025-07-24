@@ -1,0 +1,17 @@
+# PyTorch (CUDA 12.1)
+torch==2.2.1+cu121
+torchvision==0.17.1+cu121
+torchaudio==2.2.1+cu121
+-f https://download.pytorch.org/whl/torch_stable.html
+
+# Neighborhood Attention (NAT)
+natten==0.17.1+torch220cu121
+-f https://shi-labs.com/natten/wheels/
+
+# Other dependencies
+timm>=0.9.0
+scikit-learn>=1.2.0
+Pillow>=9.5.0
+tqdm>=4.65.0
+matplotlib>=3.7.0
+tensorboard>=2.13.0
