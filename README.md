@@ -17,8 +17,7 @@
 ---
 
 ## 📁 Repository Structure
-
-```bash
+'''bash
 Plant‑AT/
 ├── CODE/                       # Source code
 │   ├── PlantAT3L.py            # Model & training script
@@ -52,7 +51,7 @@ Plant‑AT/
 | Loss Weighting          | Plant + 3× Disease      |
 ---
 ## 📊 **Results on PlantVillage Dataset**
-Disease Classification
+# Disease Classification
 
 | Model        | Params  | Acc    | Precision | Recall | F1     | AUC    | MCC    |
 | ------------ | ------- | ------ | --------- | ------ | ------ | ------ | ------ |
@@ -62,7 +61,7 @@ Disease Classification
 | VGG‑19       | 139.6 M | 97.03% | 97.12%    | 97.03% | 97.01% | 0.9975 | 0.9682 |
 | MobileNetV2  | 3.88 M  | 95.55% | 95.77%    | 95.55% | 95.48% | 0.9961 | 0.9524 |
 
-Plant Type Classification
+# Plant Type Classification
 
 | Model        | Params  | Acc    | AUC    |
 | ------------ | ------- | ------ | ------ |
@@ -73,7 +72,7 @@ Plant Type Classification
 | MobileNetV2  | 3.88 M  | 99.72% | 0.9932 |
 ---
 ## **Quick Start**
-```bash
+'''bash
 git clone https://github.com/Akroy5/Plant-AT.git
 cd Plant-AT
 python3 -m venv venv
@@ -103,6 +102,6 @@ This work is subject to Springer’s copyright policies — you may use the code
 If Plant‑AT is used in your research or projects, please cite:
 
 Nagappagol, A., et al. (2025). Plant‑AT: Customized Hybrid Attention Model for Diagnosing Plant Disease. Springer Nature. 
+Visit the [Springer page](https://link.springer.com/book/10.1007/978-3-031-93691-3) for full publication details.
 
-f - https://link.springer.com/book/10.1007/978-3-031-93691-3
 
