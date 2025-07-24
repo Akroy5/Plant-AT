@@ -82,6 +82,7 @@ python CODE/PlantAT3L.py --data-dir DATA/ --batch-size 64 --epochs 100 --lr 1e-4
 ```
 ---
 ## **DATA**
+```bash
 DATA/
 ├── train/
 │   ├── Tomato-Bacterial_spot/
@@ -90,18 +91,10 @@ DATA/
 └── val/
     ├── Tomato-Bacterial_spot/
     └── Grape-Black_rot/
+```
 ---
 ## **📜 License & Publication**
-The Plant‑AT model and results are based on this Springer Nature publication:
-
-Akash Nagappagol et al., “Plant‑AT: Customized Hybrid Attention Model for Diagnosing Plant Disease”, Springer, 2025
-🔗 https://link.springer.com/book/10.1007/978-3-031-93691-3
-
-This work is subject to Springer’s copyright policies — you may use the code for academic and non-commercial purposes only, and you must cite the paper when using it.
----
-## **🤝 Citation**
-If Plant‑AT is used in your research or projects, please cite:
-
+The Plant‑AT model and results are based on this Springer Nature publication: This work is subject to Springer’s copyright policies — you may use the code for academic and non-commercial purposes only, and you must cite the paper when using it. If Plant‑AT is used in your research or projects, please cite:
 Nagappagol, A., et al. (2025). Plant‑AT: Customized Hybrid Attention Model for Diagnosing Plant Disease. Springer Nature. 
 Visit the [Springer page](https://link.springer.com/book/10.1007/978-3-031-93691-3) for full publication details.
 
