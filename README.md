@@ -17,7 +17,7 @@
 ---
 
 ## 📁 Repository Structure
-'''bash
+```bash
 Plant‑AT/
 ├── CODE/                       # Source code
 │   ├── PlantAT3L.py            # Model & training script
@@ -34,7 +34,7 @@ Plant‑AT/
 │
 ├── README.md
 └── .gitignore                  # Ignores DATA/ and RESULTS/
-
+```
 ---
 ## **Hyperparameters**
 | Hyperparameter          | Value                   |
@@ -72,13 +72,14 @@ Plant‑AT/
 | MobileNetV2  | 3.88 M  | 99.72% | 0.9932 |
 ---
 ## **Quick Start**
-'''bash
+```bash
 git clone https://github.com/Akroy5/Plant-AT.git
 cd Plant-AT
 python3 -m venv venv
 source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 pip install -r CODE/requirements.txt
 python CODE/PlantAT3L.py --data-dir DATA/ --batch-size 64 --epochs 100 --lr 1e-4
+```
 ---
 ## **DATA**
 DATA/
