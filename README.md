@@ -35,6 +35,8 @@ Plant‑AT/
 │
 ├── README.md
 └── .gitignore                  # Ignores DATA/ and RESULTS/
+
+```bash
 | Hyperparameter          | Value                   |
 | ----------------------- | ----------------------- |
 | Image Size              | 224 × 224               |
