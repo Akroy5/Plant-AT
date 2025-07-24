@@ -85,12 +85,17 @@ python CODE/PlantAT3L.py --data-dir DATA/ --batch-size 64 --epochs 100 --lr 1e-4
 ```bash
 DATA/
 ├── train/
-│   ├── Tomato-Bacterial_spot/
-│   ├── Grape-Black_rot/
+│        ├── Tomato/
+│        │       ├── Tomato-Bacterial_spot/
+│        ├──Grape/
+│                ├── Grape_Black_rot/
 │   └── ...
 └── val/
-    ├── Tomato-Bacterial_spot/
-    └── Grape-Black_rot/
+│        ├── Tomato/
+│        │       ├── Tomato-Bacterial_spot/
+│        ├──Grape/
+│                ├── Grape_Black_rot/
+│  └── ... 
 ```
 ---
 ## **📜 License & Publication**
