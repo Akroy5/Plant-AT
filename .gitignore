@@ -1,0 +1,6 @@
+# Ignore results, data, and Python cache
+RESULTS/
+DATA/
+__pycache__/
+*.py[cod]
+*.pth
