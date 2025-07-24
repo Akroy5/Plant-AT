@@ -73,6 +73,7 @@ Plant Type Classification
 | MobileNetV2  | 3.88 M  | 99.72% | 0.9932 |
 ---
 ## **Quick Start**
+```bash
 git clone https://github.com/Akroy5/Plant-AT.git
 cd Plant-AT
 python3 -m venv venv
