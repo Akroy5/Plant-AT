@@ -104,3 +104,24 @@ Nagappagol, A., et al. (2025). Plant‑AT: Customized Hybrid Attention Model for
 Visit the [Springer page](https://link.springer.com/book/10.1007/978-3-031-93691-3) for full publication details.
 
 
+
+---
+
+## 📚 Baseline Model Scripts
+
+This repository includes baseline implementations for comparison alongside the proposed Plant‑AT architecture:
+
+| File              | Description                              |
+|-------------------|------------------------------------------|
+| \`PlantAT3L.py\`    | ⚙️ Main proposed hybrid attention model (LG‑Attention + IRB + Fusion)  
+| \`nat_tiny.py\`     | 🧠 Pure Neighborhood Attention Transformer baseline  
+| \`mobilenetV2.py\`  | 📱 Lightweight MobileNetV2 CNN baseline  
+| \`resnet_50.py\`    | 🔁 Deep ResNet‑50 CNN baseline  
+| \`vgg19.py\`        | 🧱 Classic VGG‑19 CNN baseline  
+
+These are provided for ablation and benchmarking purposes.  
+You can run any of them using:
+\`\`\`bash
+python CODE/<model_file>.py --data-dir DATA/
+\`\`\`
+
